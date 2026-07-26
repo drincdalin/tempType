@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>tempType</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <form>
+            <h1>tempType</h1>
+            <input type="number" id="textBox" value="0"><br>
+
+            <input type="radio" id="toFahrenheit" name="unit">
+            <label for="toFahrenheit">Celsius → Fahrenheit</label><br>
+
+            <input type="radio" id="toCelsius" name="unit">
+            <label for="toFahrenheit">Fahrenheit → Celsius</label><br>
+
+            <button type="button" onclick="convert()">submit</button>
+            <p id="result"></p>
+        </form>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,103 @@
+*{
+    font-family: "Source Code Pro", monospace;
+    font-weight: normal;
+}
+
+h1{
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+input {
+    color:#5e676e;
+    background-color: #121212;
+    border:0;
+    font-size: 1.1em;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 9px;
+    transition: all, 0.25s;
+}
+
+input:focus{
+    color:hsl(10, 97%, 45%);
+    border: 1px solid hsl(10, 97%, 45%);
+    outline: none;
+}
+
+input:hover{
+    color:#383e42 ;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body{
+    background-color: #010203;
+    color: #5e676e;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 91vh;
+    margin: 0;
+
+}
+
+button{
+    background-color: #121212;
+    color: #5e676e;
+    border-radius: 9px;
+    padding: 10px;
+    font-size: 1.1em;
+    border: 0;
+    margin: 7px;
+    margin-bottom: 0px;
+    transition: all, 0.25s;
+}
+
+label{
+    font-size: 1.2em;
+    transition: all, 0.25s;
+
+}
+
+label:hover{
+    color:#383e42 ;
+}
+
+label:active{
+    color:#5e676e;
+}
+
+#result{
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+input{
+    font-size: 1.1em;
+}
+
+button:hover{
+    color:#383e42 ;
+}
+
+button:active{
+    background-color:#383e42;
+    color:#010203;
+}
+
+/*
+background - #010203
+main text - #5e676e
+background butoane/chenare - #121212
+text hover - #383e42
+active btn bg - #383e42
+active btn text - #010203
+red accent - hsl(10, 97%, 45%)
+
+font - Source Code Pro
+*/
