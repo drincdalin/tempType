@@ -1,5 +1,5 @@
 const textBox = document.getElementById("textBox");
-const toFarenheit =  document.getElementById("toFahrenheit");
+const toFahrenheit =  document.getElementById("toFahrenheit");
 const toCelsius = document.getElementById("toCelsius");
 const result = document.getElementById("result");
 
